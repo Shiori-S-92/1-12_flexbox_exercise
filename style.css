@@ -1,0 +1,37 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  padding: 30px 20px;
+  background-color: #FF00FF;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header > :first-child {
+  margin-right: auto;
+}
+
+header > div {
+  background-color: #FFBBFF;
+  flex-basis: 140px;
+  height: 70px;
+  margin: 0 10px;
+}
+
+
+
+main {
+
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: #75A9FF;
+}
